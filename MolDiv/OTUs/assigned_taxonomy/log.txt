@@ -1,0 +1,94 @@
+./dependencies/binaries_3rd_party/uclust1.2 --input data/saulo/OTUs/OTU_representative_sequences.fasta --usersort --nucleo --trunclabels --log data/saulo/OTUs/assigned_taxonomy/log.txt --rev --uc data/saulo/OTUs/assigned_taxonomy/uclust_tax_assignment_raw.uc --id 0.9 --libonly --maxaccepts 10 --lib /Bioinformatics_data/GreenGenes/gg_13_5_otus/rep_set/97_otus.fasta --allhits
+Started Sun Jun 14 15:05:12 2015
+Version 1.2.22
+
+
+Database search:
+    Nucleo  Alphabet
+      Both  Strand(s)
+        10  Max accepts
+         8  Max rejects
+         8  Word length for unique word matching
+        On  Word count rejection
+         8  Step words
+        50  Bump percent
+
+Alignment:
+      2.00  Match score
+     -1.00  Mis-match score
+        On  Fast heuristics
+        32  HSP length
+         4  Word length for HSP finding
+      1.00  Minimum score/col of HSP
+        16  Band radius
+     10.00  Open penalty (internal gaps)
+      0.50  Open penalty (end gaps)
+      1.00  Ext. penalty (internal gaps)
+      0.50  Ext. penalty (end gaps)
+
+                        Counter            N
+--------------------------------  ----------
+                          Search         186
+                         HotHits      595.7k
+                            Step      100.4k
+                 AlignCurrToSeed        1896
+                       PWA_Align        1896
+
+Ticks/sec 2.8G
+                            What           N       Ticks        Secs      Pct
+--------------------------------  ----------  ----------  ----------  -------
+                        AddWords      198.6k     3.4e+10       00:12     76.0%
+               WX_GetUniqueWords      198.8k       3e+09      1.070s      6.7%
+                      SeqToWords      198.6k     1.6e+09      0.580s      3.6%
+                      GetNextSeq       99.5k     9.6e+08      0.344s      2.1%
+                 U_SetWordCounts         186     4.7e+08      0.167s      1.0%
+                 ViterbiFastBand        4546     4.1e+08      0.146s      0.9%
+                       U_AddSeed       99.3k     2.1e+08      0.076s      0.5%
+                    U_SetHotHits         186     9.4e+07      0.034s      0.2%
+                            Sort         186     6.9e+07      0.025s      0.2%
+                U_AllocSeedCount          13     5.9e+07      0.021s      0.1%
+                      WF_GetHSPs        1896       5e+07      0.018s      0.1%
+                   WF_SeqToWords        2082     4.5e+07      0.016s      0.1%
+             GetFractIdGivenPath        1849     2.4e+07      0.009s      0.1%
+                    CompressPath        1707     6.9e+06      0.002s      0.0%
+                     PWA_AlignSP        7378       4e+06      0.001s      0.0%
+                    TraceBackBit        4546     2.6e+06      0.94ms      0.0%
+                  WF_ResolveHSPs        1896     2.3e+06      0.83ms      0.0%
+                MxBase_AllocData           5     1.3e+06      0.45ms      0.0%
+                 MxBase_FreeData           5     1.2e+06      0.43ms      0.0%
+                    PWA_AlignNCF        1831     9.6e+05      0.34ms      0.0%
+                    MxBase_Alloc        4547     8.2e+05      0.29ms      0.0%
+                         WF_SetA         186     5.2e+05      0.19ms      0.0%
+                  SeqToWordsStep         186     1.7e+05      0.06ms      0.0%
+                      WF_AllocLB           4     3.7e+03      0.00ms      0.0%
+                U_AllocSeqLength           1     3.5e+03      0.00ms      0.0%
+                      WF_AllocLA           1     2.4e+03     8.5e-07      0.0%
+--------------------------------              ----------     -------
+                           Total                 4.5e+10       00:16     91.7%
+Windex memory 1.4G bytes
+
+Windex::LogWordStats()
+Word length 8, nr. words 65.5k
+Total words: 279M
+Seqs/word: max = 138599.0, mean = 4256.1, median = 1623.0
+
+Top words:
+ Nr. seeds  Word
+----------  ----
+    138599  TGACGTCA
+    111927  GGAATTCC
+    108676  CCCGTCAA
+    108657  TTGACGGG
+    107140  ACTGAGAC
+    107127  GTCTCAGT
+     98133  GCTGACGA
+     98127  TCGTCAGC
+     98005  ACCTTACC
+     97968  GGTAAGGT
+
+186 seqs, 99322 lib/0 new clusters, avg size 0.0, avg id 98.4%
+9 (4.8%) not matched
+
+Finished Sun Jun 14 15:05:28 2015
+Elapsed time 00:16
+Max memory 2.9Gb

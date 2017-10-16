@@ -1,0 +1,49 @@
+Num samples: 34
+Num observations: 186
+Total count: 3307871
+Table density (fraction of non-zero values): 0.545
+
+Counts/sample summary:
+ Min: 3.0
+ Max: 182077.0
+ Median: 109735.000
+ Mean: 97290.324
+ Std. dev.: 52384.467
+ Sample Metadata Categories: N_leaves; depth_cm; aquatic; N2O_sample_uM; BarcodeSequence; possibly_contaminated; total_vol_ml; dilution_factor_fluor_post_field; CH4_sample_uM; TSS_sample_mg_per_L; genus; dilution_field; O2_percent; Description; catico_vol_ml; neg_control; DOC_sample_mg_per_L; PARAFAC_4_fmax_4; PARAFAC_4_fmax_1; lake; PARAFAC_4_fmax_3; PARAFAC_4_fmax_2; almost_manual; barcode_plate; diam_geom_mean_cm; failed_drying; type_L4; type_L1; type_L2; status_in_library; LinkerPrimerSequence; is_bromeliad; type_L3; saulo_bromeliad; saulo; absorption_240nm_sample; dilution_factor_DOC_post_fluor; light_intensity_umol; sal_sample_PSU; turbidity_sample_NTU; temp_sample_C; height_cm; cover_percent; barcode_well; pH_sample; saulo_scenario_L2; saulo_scenario_L1
+ Observation Metadata Categories: taxonomy
+
+Counts/sample detail:
+ N9: 3.0
+ T16: 14.0
+ S1: 39.0
+ N14: 143.0
+ N8: 245.0
+ S12: 47901.0
+ T6: 49128.0
+ T11: 55729.0
+ T10: 71788.0
+ S15: 76486.0
+ S3: 79091.0
+ S4: 81695.0
+ S2: 82668.0
+ S5: 89699.0
+ T15: 96129.0
+ S14: 103177.0
+ T8: 107086.0
+ S9: 112384.0
+ S7: 112751.0
+ T7: 117935.0
+ T13: 119621.0
+ T3: 122857.0
+ S11: 126371.0
+ S10: 126762.0
+ T12: 129518.0
+ T2: 135899.0
+ S8: 139850.0
+ T14: 140719.0
+ S6: 143555.0
+ T5: 154801.0
+ T9: 156572.0
+ T1: 168378.0
+ S13: 176800.0
+ T4: 182077.0

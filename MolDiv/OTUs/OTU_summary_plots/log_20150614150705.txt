@@ -1,0 +1,43 @@
+Logging started at 15:07:05 on 14 Jun 2015
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/macqiime/anaconda/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/macqiime/anaconda/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/macqiime/anaconda/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/macqiime/anaconda/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	blastall
+seconds_to_sleep	60
+
+parameter file values:
+summarize_taxa.py:level	$BAR_PIE_PLOT_TAXONOMY_LEVELS
+plot_taxa_summary:chart_type	bar
+
+Input file md5 sums:
+data/saulo/OTUs/otu_table.biom: aa43bd807012dbc1af1d4f8aad86c422
+data/saulo/combined_mappings.txt: d647c5e259689aa8e6008d3623079a10
+
+Executing commands.
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i data/saulo/OTUs/otu_table.biom -o data/saulo/OTUs/OTU_summary_plots 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i data/saulo/OTUs/OTU_summary_plots/otu_table_L2.txt,data/saulo/OTUs/OTU_summary_plots/otu_table_L3.txt,data/saulo/OTUs/OTU_summary_plots/otu_table_L4.txt,data/saulo/OTUs/OTU_summary_plots/otu_table_L5.txt,data/saulo/OTUs/OTU_summary_plots/otu_table_L6.txt -o data/saulo/OTUs/OTU_summary_plots/taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 15:07:36 on 14 Jun 2015

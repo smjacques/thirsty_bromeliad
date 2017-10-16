@@ -1,0 +1,8 @@
+# Core OTUs across 90 % of samples.
+0	[u'k__Bacteria', u'p__Proteobacteria', u'c__Gammaproteobacteria', u'o__Pseudomonadales', u'f__Moraxellaceae', u'g__Acinetobacter', u's__']
+1	[u'k__Bacteria', u'p__Firmicutes', u'c__Bacilli', u'o__Bacillales', u'f__Bacillaceae', u'g__', u's__']
+2	[u'k__Bacteria', u'p__Proteobacteria', u'c__Gammaproteobacteria', u'o__Pseudomonadales', u'f__Moraxellaceae', u'g__Acinetobacter', u's__']
+4	[u'k__Bacteria', u'p__Firmicutes', u'c__Bacilli', u'o__Bacillales', u'f__Bacillaceae', u'g__Bacillus', u's__']
+13	[u'k__Bacteria', u'p__Proteobacteria', u'c__Alphaproteobacteria', u'o__Rhizobiales', u'f__Methylocystaceae', u'g__', u's__']
+23	[u'k__Bacteria', u'p__Bacteroidetes', u'c__[Saprospirae]', u'o__[Saprospirales]', u'f__Chitinophagaceae', u'g__Sediminibacterium', u's__']
+44	[u'k__Bacteria', u'p__Verrucomicrobia', u'c__[Pedosphaerae]', u'o__[Pedosphaerales]', u'f__auto67_4W', u'g__', u's__']

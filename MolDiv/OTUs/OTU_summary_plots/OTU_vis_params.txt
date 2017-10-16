@@ -1,0 +1,2 @@
+plot_taxa_summary:chart_type bar
+summarize_taxa.py:level $BAR_PIE_PLOT_TAXONOMY_LEVELS
