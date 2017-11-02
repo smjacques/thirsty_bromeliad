@@ -1,2 +1,2 @@
 # thirsty_bromeliad
-Data from ecological studies about changes on precipitation and the microbial community dinamycs.
+Effects of low precipitation on functional and molecular diversity of microbial community.
